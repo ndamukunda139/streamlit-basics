@@ -28,6 +28,8 @@ st.write("Once installed, run streamlit using command ' streamlit hello' in the 
 st.caption("This is a simple equation")
 st.latex(r'st = \frac{1}{2}gt^2')
 
+st.latex(r"s \left ( t \right ) = ut + \dfrac{1}{2} at^2")
+
 
 # Dipsplay Dataframes
 st.header("Iris Dataset")
